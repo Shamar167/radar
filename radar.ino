@@ -25,7 +25,7 @@ void loop()
 	{
     		myservo.write(pos); // Tell servo to go to position in variable 'pos'
     		delay(15);          // Waits 15ms for the servo to reach the position
-		printToScreen(pos);
+			printToScreen(pos);
   	}
 
   	// Sweep from 180 degrees to 0 degrees
@@ -33,7 +33,7 @@ void loop()
 	{
     		myservo.write(pos); // Tell servo to go to position in variable 'pos'
     		delay(15);          // Waits 15ms for the servo to reach the position
-		printToScreen(pos);
+			printToScreen(pos);
   	}
 }
 
